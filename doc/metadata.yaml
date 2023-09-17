@@ -2,6 +2,7 @@ description: digital SPI (bus) expander
 github_branch: SPIEX01A
 github_branches:
 - SPIEX01A
+github_description: digital SPI (bus) expander
 github_repo: SPIEX01
 github_url: https://github.com/mlab-modules/SPIEX01
 homepage: false
@@ -13,4 +14,4 @@ tags:
 - mlab
 - mlab-module
 title: SPIEX01
-updated: '2023-09-16T22:03:27.189119+00:00'
+updated: '2023-09-17T11:33:09.695878+00:00'
