@@ -1,2 +1,1 @@
-# SPIEX01
-digital SPI (bus) expander
+# SPIEX01 - digital SPI (bus) expander
