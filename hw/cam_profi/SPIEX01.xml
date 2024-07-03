@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/github/workspace/hw/sch_pcb/SPIEX01.kicad_sch</source>
+    <date>Wed Jul  3 20:30:11 2024</date>
+    <tool>Eeschema 7.0.11+1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SPIEXT01A</title>
+        <company>MLAB.cz</company>
+        <rev/>
+        <date/>
+        <source>SPIEX01.kicad_sch</source>
+        <comment number="1" value="SPI Expander"/>
+        <comment number="2" value="Allow addressing of multiple SPI devices\nfrom single master"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="SPIEX01-rescue" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPIEX01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005927e5ab</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="SPIEX01-rescue" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPIEX01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005927e6d6</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="SPIEX01-rescue" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPIEX01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000592c5277</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="SPIEX01-rescue" part="D" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPIEX01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000592ea045</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>PWR</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
+      <libsource lib="SPIEX01-rescue" part="JUMP_3X2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPIEX01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000592d8087</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>SPI-IN</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
+      <libsource lib="SPIEX01-rescue" part="CONN_02X03" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPIEX01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000592802c7</tstamps>
+    </comp>
+    <comp ref="P2">
+      <value>SPI3</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
+      <libsource lib="SPIEX01-rescue" part="CONN_02X03" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPIEX01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005927fe0e</tstamps>
+    </comp>
+    <comp ref="P3">
+      <value>SPI0</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
+      <libsource lib="SPIEX01-rescue" part="CONN_02X03" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPIEX01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005927f3ee</tstamps>
+    </comp>
+    <comp ref="P4">
+      <value>SPI4</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
+      <libsource lib="SPIEX01-rescue" part="CONN_02X03" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPIEX01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005927fe4e</tstamps>
+    </comp>
+    <comp ref="P5">
+      <value>SPI1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
+      <libsource lib="SPIEX01-rescue" part="CONN_02X03" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPIEX01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005927fd55</tstamps>
+    </comp>
+    <comp ref="P6">
+      <value>SPI5</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
+      <libsource lib="SPIEX01-rescue" part="CONN_02X03" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPIEX01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005927fe99</tstamps>
+    </comp>
+    <comp ref="P7">
+      <value>SPI2</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
+      <libsource lib="SPIEX01-rescue" part="CONN_02X03" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPIEX01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005927fdc3</tstamps>
+    </comp>
+    <comp ref="P8">
+      <value>SPI6</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
+      <libsource lib="SPIEX01-rescue" part="CONN_02X03" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPIEX01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005927fee3</tstamps>
+    </comp>
+    <comp ref="P10">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_3mm</footprint>
+      <libsource lib="SPIEX01-rescue" part="CONN_01X01" description=""/>
+      <property name="UST_ID" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPIEX01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000592d4554</tstamps>
+    </comp>
+    <comp ref="P11">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_3mm</footprint>
+      <libsource lib="SPIEX01-rescue" part="CONN_01X01" description=""/>
+      <property name="UST_ID" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPIEX01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000592d482b</tstamps>
+    </comp>
+    <comp ref="P12">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_3mm</footprint>
+      <libsource lib="SPIEX01-rescue" part="CONN_01X01" description=""/>
+      <property name="UST_ID" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPIEX01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000592d4888</tstamps>
+    </comp>
+    <comp ref="P13">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_3mm</footprint>
+      <libsource lib="SPIEX01-rescue" part="CONN_01X01" description=""/>
+      <property name="UST_ID" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPIEX01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000592d48f3</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>74HC00</value>
+      <footprint>Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm</footprint>
+      <libsource lib="SPIEX01-rescue" part="74HC00" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPIEX01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005927dbb7 00000000-0000-0000-0000-00005927dc32 00000000-0000-0000-0000-00005927db80 00000000-0000-0000-0000-00005927db45</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>74HC164</value>
+      <footprint>Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm</footprint>
+      <libsource lib="SPIEX01-rescue" part="74HC164" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPIEX01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005927daf1</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>74HC125</value>
+      <footprint>Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm</footprint>
+      <libsource lib="SPIEX01-rescue" part="74HC125" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPIEX01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000592c23d5 00000000-0000-0000-0000-0000592c25ee 00000000-0000-0000-0000-0000592c2563 00000000-0000-0000-0000-0000592c0d2f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="SPIEX01-rescue" part="74HC00">
+      <footprints>
+        <fp>14DIP300*</fp>
+        <fp>SO14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="output"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="input"/>
+        <pin num="11" name="" type="output"/>
+        <pin num="12" name="" type="input"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SPIEX01-rescue" part="74HC125">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC125</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="output"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="input"/>
+        <pin num="11" name="" type="output"/>
+        <pin num="12" name="" type="input"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="??" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SPIEX01-rescue" part="74HC164">
+      <footprints>
+        <fp>14DIP300*</fp>
+        <fp>SO14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC164</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DSA" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="Q0" type="output"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="Q2" type="output"/>
+        <pin num="6" name="Q3" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="CP" type="input"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="Q4" type="input"/>
+        <pin num="11" name="Q5" type="input"/>
+        <pin num="12" name="Q4" type="output"/>
+        <pin num="13" name="Q7" type="output"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="??" name="CP" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SPIEX01-rescue" part="C">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SPIEX01-rescue" part="CONN_01X01">
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SPIEX01-rescue" part="CONN_02X03">
+      <footprints>
+        <fp>Pin_Header_Straight_2X03</fp>
+        <fp>Pin_Header_Angled_2X03</fp>
+        <fp>Socket_Strip_Straight_2X03</fp>
+        <fp>Socket_Strip_Angled_2X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SPIEX01-rescue" part="D">
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SPIEX01-rescue" part="JUMP_3X2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JUMP_3X2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="2" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="4" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="6" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="SPIEX01-rescue">
+      <uri>/github/workspace/hw/sch_pcb/SPIEX01-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CLK">
+      <node ref="P2" pin="3" pinfunction="P3" pintype="passive"/>
+      <node ref="P3" pin="3" pinfunction="P3" pintype="passive"/>
+      <node ref="P4" pin="3" pinfunction="P3" pintype="passive"/>
+      <node ref="P5" pin="3" pinfunction="P3" pintype="passive"/>
+      <node ref="P6" pin="3" pinfunction="P3" pintype="passive"/>
+      <node ref="P7" pin="3" pinfunction="P3" pintype="passive"/>
+      <node ref="P8" pin="3" pinfunction="P3" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="input"/>
+      <node ref="U3" pin="8" pintype="output"/>
+    </net>
+    <net code="2" name="/CLK-IN">
+      <node ref="P1" pin="3" pinfunction="P3" pintype="passive"/>
+      <node ref="U3" pin="9" pintype="input"/>
+    </net>
+    <net code="3" name="/MISO">
+      <node ref="P2" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P3" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P4" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P5" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P6" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P7" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P8" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="U3" pin="5" pintype="input"/>
+    </net>
+    <net code="4" name="/MISO-OUT">
+      <node ref="P1" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="U3" pin="6" pintype="output"/>
+    </net>
+    <net code="5" name="/MOSI">
+      <node ref="P2" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="P3" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="P4" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="P5" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="P6" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="P7" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="P8" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="DSB" pintype="input"/>
+      <node ref="U3" pin="3" pintype="output"/>
+    </net>
+    <net code="6" name="/MOSI-IN">
+      <node ref="P1" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="U3" pin="2" pintype="input"/>
+    </net>
+    <net code="7" name="/SS">
+      <node ref="U1" pin="12" pintype="input"/>
+      <node ref="U1" pin="13" pintype="input"/>
+      <node ref="U3" pin="11" pintype="output"/>
+    </net>
+    <net code="8" name="/SS-IN">
+      <node ref="P1" pin="5" pinfunction="P5" pintype="passive"/>
+      <node ref="U3" pin="12" pintype="input"/>
+    </net>
+    <net code="9" name="/SS0">
+      <node ref="P3" pin="5" pinfunction="P5" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="Q0" pintype="output"/>
+    </net>
+    <net code="10" name="/SS1">
+      <node ref="P5" pin="5" pinfunction="P5" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="Q1" pintype="output"/>
+    </net>
+    <net code="11" name="/SS2">
+      <node ref="P7" pin="5" pinfunction="P5" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="Q2" pintype="output"/>
+    </net>
+    <net code="12" name="/SS3">
+      <node ref="P2" pin="5" pinfunction="P5" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="Q3" pintype="output"/>
+    </net>
+    <net code="13" name="/SS4">
+      <node ref="P4" pin="5" pinfunction="P5" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="Q4" pintype="output"/>
+    </net>
+    <net code="14" name="/SS5">
+      <node ref="P6" pin="5" pinfunction="P5" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="Q5" pintype="output"/>
+    </net>
+    <net code="15" name="/SS6">
+      <node ref="P8" pin="5" pinfunction="P5" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="Q6" pintype="output"/>
+    </net>
+    <net code="16" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="6" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="P1" pin="6" pinfunction="P6" pintype="passive"/>
+      <node ref="P10" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P11" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P12" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P13" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P2" pin="6" pinfunction="P6" pintype="passive"/>
+      <node ref="P3" pin="6" pinfunction="P6" pintype="passive"/>
+      <node ref="P4" pin="6" pinfunction="P6" pintype="passive"/>
+      <node ref="P5" pin="6" pinfunction="P6" pintype="passive"/>
+      <node ref="P6" pin="6" pinfunction="P6" pintype="passive"/>
+      <node ref="P7" pin="6" pinfunction="P6" pintype="passive"/>
+      <node ref="P8" pin="6" pinfunction="P6" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="1" pintype="input"/>
+      <node ref="U3" pin="10" pintype="input"/>
+      <node ref="U3" pin="13" pintype="input"/>
+      <node ref="U3" pin="4" pintype="input"/>
+      <node ref="U3" pin="7" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2" pintype="input"/>
+      <node ref="U1" pin="8" pintype="output"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3" pintype="output"/>
+      <node ref="U1" pin="4" pintype="input"/>
+      <node ref="U1" pin="5" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(U2A-CP)">
+      <node ref="U1" pin="6" pintype="output"/>
+      <node ref="U2" pin="8" pinfunction="CP" pintype="input"/>
+    </net>
+    <net code="20" name="Net-(U2A-MR)">
+      <node ref="U1" pin="11" pintype="output"/>
+      <node ref="U2" pin="9" pinfunction="MR" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(U2A-Q7)">
+      <node ref="U1" pin="10" pintype="input"/>
+      <node ref="U1" pin="9" pintype="input"/>
+      <node ref="U2" pin="13" pinfunction="Q7" pintype="output"/>
+    </net>
+    <net code="22" name="VCC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="4" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="P1" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="P2" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="P3" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="P4" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="P5" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="P6" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="P7" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="P8" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="DSA" pintype="input"/>
+      <node ref="U2" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="14" pinfunction="VCC" pintype="power_in"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,12 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+"C1","100n","C_0603_HandSoldering",153.8570,-159.0982,90.0000,bottom
+"C2","100n","C_0603_HandSoldering",131.3180,-162.5600,0.0000,bottom
+"C3","100n","C_0603_HandSoldering",128.0160,-159.0040,-90.0000,bottom
+"D1","D","R_0805_HandSoldering",131.5720,-166.3446,180.0000,bottom
+"P10","CONN_01X01","MountingHole_3mm",111.7600,-172.7200,0.0000,bottom
+"P11","CONN_01X01","MountingHole_3mm",152.4000,-172.7200,0.0000,bottom
+"P12","CONN_01X01","MountingHole_3mm",111.7600,-132.0800,0.0000,bottom
+"P13","CONN_01X01","MountingHole_3mm",152.4000,-132.0800,0.0000,bottom
+"U1","74HC00","SOIC-14_3.9x8.7mm_Pitch1.27mm",134.2990,-157.2872,-90.0000,bottom
+"U2","74HC164","SOIC-14_3.9x8.7mm_Pitch1.27mm",148.6500,-156.1772,0.0000,bottom
+"U3","74HC125","SOIC-14_3.9x8.7mm_Pitch1.27mm",121.9200,-157.2087,90.0000,bottom
