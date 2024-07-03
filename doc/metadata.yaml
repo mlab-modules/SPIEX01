@@ -1,17 +1,33 @@
-description: digital SPI (bus) expander
+description: ' SPI (bus) expander to control multiple devices from the one SPI master. '
 github_branch: SPIEX01A
 github_branches:
 - SPIEX01A
-github_description: digital SPI (bus) expander
+github_description: ' SPI (bus) expander to control multiple devices from the one
+  SPI master. '
 github_repo: SPIEX01
 github_url: https://github.com/mlab-modules/SPIEX01
 homepage: false
-images: []
+images:
+- doc/gen/img/SPIEX01-bottom.png
+- doc/gen/img/SPIEX01-top.png
+- doc/gen/SPIEX01-schematic.svg
+- doc/gen/img/SPIEX01-top.svg
+- doc/gen/img/SPIEX01-bottom.svg
+- hw/cam_profi/assembly/SPIEX01-assembly_page_01.svg
+- hw/cam_profi/assembly/SPIEX01-assembly_page_02.svg
 issues: 1
 mark: 50
+mod_ibom: hw/cam_profi/SPIEX01-ibom.html
+mod_scheme: doc/gen/SPIEX01-schematic.pdf
 status: 1
 tags:
 - mlab
 - mlab-module
+- spi
+- spi-communication
+- spi-device
+- spi-interface
+- spi-master
+- spi-slave
 title: SPIEX01
-updated: '2024-07-03T20:28:43.930942+00:00'
+updated: '2024-07-03T20:31:00.904795+00:00'
