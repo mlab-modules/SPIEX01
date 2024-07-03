@@ -7,6 +7,7 @@ github_description: ' SPI (bus) expander to control multiple devices from the on
 github_repo: SPIEX01
 github_url: https://github.com/mlab-modules/SPIEX01
 homepage: false
+image_title: doc/gen/img/SPIEX01-top.png
 images:
 - doc/gen/img/SPIEX01-bottom.png
 - doc/gen/img/SPIEX01-top.png
